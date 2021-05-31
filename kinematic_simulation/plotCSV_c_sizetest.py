@@ -13,7 +13,7 @@ frame2 = []
 frame3 = []
 frame4 = []
 
-def plotCSV_d(filename):
+def plotCSV_c_sizetest(filename):
     
     with open('logs/' + filename + '_1.csv','r') as csvfileQuick:
         plots = csv.reader(csvfileQuick, delimiter=',')
@@ -60,4 +60,4 @@ def plotCSV_d(filename):
 
 
 if __name__ == '__main__':
-    plotCSV_d('data_c')
+    plotCSV_c_sizetest('data_c')

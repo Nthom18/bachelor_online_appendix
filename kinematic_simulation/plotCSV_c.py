@@ -11,7 +11,7 @@ t = []
 frame = []
 collisions = []
 
-def plotCSV_d(filename):
+def plotCSV_c(filename):
     
     with open('logs/' + filename + '.csv','r') as csvfileQuick:
         plots = csv.reader(csvfileQuick, delimiter=',')
@@ -39,4 +39,4 @@ def plotCSV_d(filename):
 
 
 if __name__ == '__main__':
-    plotCSV_d('data_c')
+    plotCSV_c('data_c')
