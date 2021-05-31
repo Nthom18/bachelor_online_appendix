@@ -1,0 +1,1 @@
+This is a temporary folder for log-files generated while running code in the kinematic_simulation folder.
