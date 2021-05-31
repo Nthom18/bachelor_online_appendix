@@ -30,7 +30,7 @@ def plotCSV_c(filename):
     print('Avg_5: ', sum(frame)/len(t))
 
     # plt.plot(t, collisions, label = 'Collisions')
-    plt.xlabel('Time steps')
+    plt.xlabel('Test number')
     plt.ylabel('Frames')
     plt.title('Frames until completion')
     plt.legend()
