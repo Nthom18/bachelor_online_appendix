@@ -13,7 +13,7 @@ collisions = []
 
 def plotCSV_d(filename):
     
-    with open('logs_test_c/' + filename + '.csv','r') as csvfileQuick:
+    with open('logs/' + filename + '.csv','r') as csvfileQuick:
         plots = csv.reader(csvfileQuick, delimiter=',')
         for row in plots:
             t.append(int(row[0]))
